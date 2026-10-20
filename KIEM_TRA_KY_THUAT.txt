@@ -1,0 +1,8 @@
+Static validation report for BIT240136_FoodManager2
+- XML parsers: all app layouts, resources, and manifest parse successfully.
+- Java resource references: all project R.id / R.string / R.layout refs found (android.R layouts excluded).
+- Offline schema: database version upgraded 1 -> 2 without drops; changes captured by triggers.
+- Build attempt: Android Gradle build NOT executed successfully in this environment:
+  Gradle 9.6 distribution unavailable; services.gradle.org could not be resolved.
+  Please open in Android Studio and run Gradle Sync and Build > Rebuild Project.
+- MockAPI: Endpoint not supplied by user, cannot verify remote synchronization.
